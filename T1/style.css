@@ -1,0 +1,129 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+#first .minibox {
+  border: 5px solid #cfbef0;
+  width: 180px;
+  height: 180px;
+  transition: 2s;
+}
+#first .minibox:hover {
+  width: 400px;
+  height: 100px;
+  border: 10px solid #6e4cb0;
+}
+#first .minibox h1 {
+  color: #6b4bab;
+  font-size: 45px;
+  font-weight: 500;
+}
+#first .first {
+  margin: 35px 0px 0px;
+}
+@media screen and (max-width: 600px) {
+  #first .minibox {
+    border: 5px solid #cfbef0;
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #first .minibox {
+    border: 3px solid #54a684;
+    width: 50px;
+    height: 50px;
+    background-color: #5074b4;
+  }
+  #first .minibox h1 {
+    color: white;
+    font-size: 10px;
+  }
+}
+
+#second {
+  padding: 80px 0 0 0;
+}
+#second .minibox {
+  border: 5px solid black;
+  width: 130px;
+  height: 130px;
+  background-color: #ced3f5;
+  transition: 2s;
+}
+#second .minibox h1 {
+  color: #ffffff;
+  font-size: 25px;
+}
+#second .minibox:hover {
+  width: 190px;
+  height: 190px;
+  border: 5px solid #4b886f;
+}
+@media screen and (max-width: 800px) {
+  #second .minibox {
+    border: 5px solid red;
+    width: 220px;
+    height: 220px;
+    background-color: #323754;
+  }
+}
+
+#button {
+  padding: 80px 0 0 0;
+}
+#button .button {
+  background-color: #3e5798;
+  width: 120px;
+  height: 35px;
+  border-radius: 3px;
+  padding: 10px 0px 0px 26px;
+  position: relative;
+  right: 130px;
+}
+#button .button h1 {
+  color: #ffffff;
+}
+@media screen and (max-width: 800px) {
+  #button .button {
+    background-color: #6d284c;
+    width: 120px;
+    height: 35px;
+    border-radius: 3px;
+    padding: 10px 0px 0px 26px;
+    position: relative;
+    right: 120px;
+  }
+  #button .button h1 {
+    color: black;
+  }
+}
+
+#third {
+  padding: 80px 0 0 0;
+}
+#third .minibox {
+  border: 4px solid black;
+  width: 150px;
+  height: 150px;
+  transition: 2s;
+}
+#third .minibox h1 {
+  color: #e4e242;
+}
+#third .minibox:hover {
+  border-radius: 100px;
+  border: 6px solid #e4e242;
+}
+@media screen and (max-width: 800px) {
+  #third .minibox {
+    border: 4px solid black;
+    background-color: #e4e242;
+    width: 30px;
+    height: 30px;
+  }
+  #third .minibox h1 {
+    color: #ffffff;
+  }
+}/*# sourceMappingURL=style.css.map */
